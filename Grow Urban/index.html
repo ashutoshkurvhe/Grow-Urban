@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenThumb - Urban Gardening Community</title>
+    <!-- Google Font - Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- AOS - Animate On Scroll Library -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">
+        <i class="fas fa-seedling"></i>
+        Grow Urban
+      </div>
+      <div class="nav-links">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#plants" class="nav-link">Plants</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#" class="btn">Sign Up</a>
+      </div>
+      <div class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+        <h1>Grow Your Own Urban Garden</h1>
+        <p>
+          Join a community of urban gardeners and grow fresh produce in small
+          spaces. Get advice, track your plants, and share your harvest with
+          neighbors.
+        </p>
+        <div class="hero-actions">
+          <a href="#" class="btn">Get Started</a>
+          <a href="#" class="btn btn-outline">Learn More</a>
+        </div>
+      </div>
+      <img
+        src="images/hero/hero-img.jpeg"
+        alt="Urban garden illustration"
+        class="hero-image"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+      />
+    </section>
+
+    <!-- Features Section -->
+    <section class="section" id="features">
+      <h2 class="section-title" data-aos="fade-up">Why Choose GreenThumb?</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Our platform makes urban gardening simple, social, and sustainable.
+      </p>
+
+      <div class="features">
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-icon">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <h3 class="feature-title">Plant Tracking</h3>
+          <p class="feature-desc">
+            Keep track of all your plants with our smart tracking system. Get
+            reminders for watering, fertilizing, and harvesting.
+          </p>
+        </div>
+
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 class="feature-title">Community Support</h3>
+          <p class="feature-desc">
+            Connect with local gardeners to share tips, trade seeds, and even
+            exchange surplus produce from your garden.
+          </p>
+        </div>
+
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="feature-icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <h3 class="feature-title">Knowledge Base</h3>
+          <p class="feature-desc">
+            Access our extensive library of guides, tutorials, and articles
+            about urban gardening techniques.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section how-it-works" id="how-it-works">
+      <h2 class="section-title" data-aos="fade-up">How It Works</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Start your urban gardening journey in just a few simple steps.
+      </p>
+
+      <div class="steps">
+        <div class="step" data-aos="fade-right">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3 class="step-title">Create Your Garden Profile</h3>
+            <p class="step-desc">
+              Sign up and tell us about your space, whether it's a balcony,
+              rooftop, or community garden plot. We'll help you understand its
+              potential.
+            </p>
+          </div>
+        </div>
+
+        <div class="step" data-aos="fade-left">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3 class="step-title">Plan Your Garden</h3>
+            <p class="step-desc">
+              Use our planning tools to select plants that will thrive in your
+              specific conditions and arrange them optimally in your space.
+            </p>
+          </div>
+        </div>
+
+        <div class="step" data-aos="fade-right">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3 class="step-title">Track Growth & Maintenance</h3>
+            <p class="step-desc">
+              Record your gardening activities, set reminders, and watch your
+              plants flourish with our tracking tools.
+            </p>
+          </div>
+        </div>
+
+        <div class="step" data-aos="fade-left">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3 class="step-title">Connect & Share</h3>
+            <p class="step-desc">
+              Join local gardening groups, share your successes, ask questions,
+              and trade surplus produce with neighbors.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plants Gallery -->
+    <section class="section" id="plants">
+      <h2 class="section-title" data-aos="fade-up">Popular Urban Plants</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Discover plants that thrive in urban environments with limited space.
+      </p>
+
+      <div class="gallery">
+        <div class="plant-card" data-aos="fade-up" data-aos-delay="200">
+          <img
+            src="images/Products/p1.jpeg"
+            alt="Cherry tomatoes"
+            class="plant-image"
+          />
+          <div class="plant-info">
+            <h3 class="plant-name">Cherry Tomatoes</h3>
+            <p class="plant-type">Vegetable • Container-friendly</p>
+            <div class="plant-stats">
+              <div class="plant-stat">
+                <i class="fas fa-sun"></i>
+                <span>Full sun</span>
+              </div>
+              <div class="plant-stat">
+                <i class="fas fa-tint"></i>
+                <span>Medium water</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="plant-card" data-aos="fade-up" data-aos-delay="300">
+          <img
+            src="images/Products/p2.jpeg"
+            alt="Basil plant"
+            class="plant-image"
+          />
+          <div class="plant-info">
+            <h3 class="plant-name">Basil</h3>
+            <p class="plant-type">Herb • Indoor/Outdoor</p>
+            <div class="plant-stats">
+              <div class="plant-stat">
+                <i class="fas fa-sun"></i>
+                <span>Partial sun</span>
+              </div>
+              <div class="plant-stat">
+                <i class="fas fa-tint"></i>
+                <span>Regular water</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="plant-card" data-aos="fade-up" data-aos-delay="400">
+          <img
+            src="images/Products/p3.jpeg"
+            alt="Lettuce variety"
+            class="plant-image"
+          />
+          <div class="plant-info">
+            <h3 class="plant-name">Lettuce Mix</h3>
+            <p class="plant-type">Vegetable • Quick harvest</p>
+            <div class="plant-stats">
+              <div class="plant-stat">
+                <i class="fas fa-sun"></i>
+                <span>Partial shade</span>
+              </div>
+              <div class="plant-stat">
+                <i class="fas fa-tint"></i>
+                <span>Regular water</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="plant-card" data-aos="fade-up" data-aos-delay="500">
+          <img
+            src="images/Products/p4.jpeg"
+            alt="Chili peppers"
+            class="plant-image"
+          />
+          <div class="plant-info">
+            <h3 class="plant-name">Chili Peppers</h3>
+            <p class="plant-type">Vegetable • Compact variety</p>
+            <div class="plant-stats">
+              <div class="plant-stat">
+                <i class="fas fa-sun"></i>
+                <span>Full sun</span>
+              </div>
+              <div class="plant-stat">
+                <i class="fas fa-tint"></i>
+                <span>Moderate water</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials" id="testimonials">
+      <h2 class="section-title" data-aos="fade-up">What Our Gardeners Say</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Join thousands of satisfied urban gardeners growing their own food.
+      </p>
+
+      <div class="testimonials-wrapper">
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+          <p class="testimonial-text">
+            "I never thought I could grow anything on my tiny balcony.
+            GreenThumb helped me plan a vertical herb garden that gives me fresh
+            herbs year-round. The community is so supportive too!"
+          </p>
+          <div class="testimonial-author">
+            <img
+              src="images/user/u2.jpeg"
+              alt="Sarah J."
+              class="author-avatar"
+            />
+            <div class="author-info">
+              <h4>Janvi s.</h4>
+              <p>Apartment Gardener • 1 year</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+          <p class="testimonial-text">
+            "As a beginner, I was overwhelmed by gardening info online.
+            GreenThumb simplified everything with personalized recommendations
+            and timely reminders. My tomato harvest this year was amazing!"
+          </p>
+          <div class="testimonial-author">
+            <img
+              src="images/user/u1.jpeg"
+              alt="Marcus T."
+              class="author-avatar"
+            />
+            <div class="author-info">
+              <h4>Manas T.</h4>
+              <p>Rooftop Gardener • 2 years</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section newsletter">
+      <div class="newsletter-content" data-aos="fade-up">
+        <h2 class="newsletter-title">Get Gardening Tips</h2>
+        <p class="newsletter-desc">
+          Subscribe to our newsletter for seasonal growing tips, urban gardening
+          hacks, and community updates.
+        </p>
+        <form class="newsletter-form">
+          <input
+            type="email"
+            placeholder="Your email address"
+            class="newsletter-input"
+            required
+          />
+          <button type="submit" class="newsletter-btn">Subscribe</button>
+        </form>
+        <p class="newsletter-privacy">
+          We respect your privacy. Unsubscribe at any time.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-info">
+          <div class="footer-logo">
+            <i class="fas fa-seedling"></i>
+            Grow Urban
+          </div>
+          <p class="footer-desc">
+            Empowering urban dwellers to grow their own food, connect with
+            nature, and build sustainable communities.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links-container">
+          <h3 class="footer-links-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li class="footer-link"><a href="#">Home</a></li>
+            <li class="footer-link"><a href="#features">Features</a></li>
+            <li class="footer-link">
+              <a href="#how-it-works">How It Works</a>
+            </li>
+            <li class="footer-link"><a href="#plants">Plants</a></li>
+            <li class="footer-link">
+              <a href="#testimonials">Testimonials</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links-container">
+          <h3 class="footer-links-title">Resources</h3>
+          <ul class="footer-links">
+            <li class="footer-link"><a href="#">Plant Library</a></li>
+            <li class="footer-link"><a href="#">Gardening Guides</a></li>
+            <li class="footer-link"><a href="#">Community Forums</a></li>
+            <li class="footer-link"><a href="#">Events Calendar</a></li>
+            <li class="footer-link"><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-container">
+          <h3 class="footer-links-title">Company</h3>
+          <ul class="footer-links">
+            <li class="footer-link"><a href="#">About Us</a></li>
+            <li class="footer-link"><a href="#">Our Mission</a></li>
+            <li class="footer-link"><a href="#">Blog</a></li>
+            <li class="footer-link"><a href="#">Careers</a></li>
+            <li class="footer-link"><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">&copy; 2025 Grow Urban. All rights reserved.</div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
