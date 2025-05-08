@@ -172,6 +172,7 @@ body {
   position: absolute;
   right: 5%;
   width: 50%;
+  border-radius: 10px;
   max-width: 500px;
   z-index: 1;
 }
