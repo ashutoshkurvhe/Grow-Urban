@@ -5,6 +5,30 @@ AOS.init({
   duration: 800,
 });
 
+//Login Form
+const form = document.getElementById('loginForm');
+const signUp = document.querySelector('.sign-up-btn');
+const blurBg = document.querySelector('.blur-bg')
+console.log(form)
+
+signUp.addEventListener('click', () => {
+  blurBg.classList.add('show-form')
+})
+
+
+form.addEventListener('submit', function (e) {
+  e.preventDefault();
+  const email = document.getElementById('email').value;
+  const password = document.getElementById('password').value;
+
+  if (email && password) {
+    alert('Login successful!');
+    blurBg.classList.remove('show-form')
+  } else {
+    alert('Please fill in all fields.');
+  }
+})
+
 // Mobile Menu Toggle
 const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
 const navLinks = document.querySelector(".nav-links");
